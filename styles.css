@@ -59,3 +59,30 @@ button {
 button:hover {
     background-color: #555;
 }
+
+
+/* ABOUT SECTION */
+
+/* Center the image and text */
+.content {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px; /* Set a max-width for the content */
+}
+
+/* Ensure the image is centered */
+img {
+    display: block;
+    margin: 20px auto; /* Center image horizontally */
+    max-width: 100%;   /* Make image responsive */
+    height: auto;
+}
+
+/* Optional: Style for the return link */
+.back-link {
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
