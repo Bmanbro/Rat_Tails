@@ -4,24 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About the Great Hanoi Rat Massacre</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Center the image and text */
+        .content {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 800px; /* Set a max-width for the content */
+        }
+    
+        /* Ensure the image is centered */
+        img {
+            display: block;
+            margin: 20px auto; /* Center image horizontally */
+            max-width: 100%;   /* Make image responsive */
+            height: auto;
+        }
+    
+        /* Optional: Style for the return link */
+        .back-link {
+            margin-top: 20px;
+            display: inline-block;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+    
 </head>
 <body>
     <header>
-        <h1>About the Great Hanoi Rat Massacre</h1>
+        <h1 style="text-align: center;">About the Great Hanoi Rat Massacre</h1>
     </header>
 
-    <section>
+    <div class="content">
         <p>In 1902, the colonial authorities in Hanoi attempted to exterminate rats to control the plague. This created an unintended economy of rat tails, as citizens were paid for every rat tail they turned in!</p>
         <p>This led to one of the most bizarre historical events, where instead of reducing the rat population, it led to breeding more rats to collect more tails. Now, you can own a piece of history from this strange event.</p>
-        <img src="rat1.jpg" alt="rat1">
-        
-        <a href="index.html">
-            <div class="infoBox">
-                <p>Click here to go back to the previous shop page!</p>
-            </div>
-        </a>
-    </section>
+
+        <!-- Centered Image -->
+        <img src="rat1.jpg" alt="Rat1">
+
+        <!-- Back to Shop link -->
+        <a class="back-link" href="index.html">Click here to go back to the previous shop page!</a>
+    </div>
 
     <footer>
         <p>© 2024 Bman's Rat Tails. All Rights Reserved.</p>
