@@ -51,7 +51,7 @@ section {
 
 /* Style the product images */
 .product img {
-    width: 150px; /* Adjust size as necessary */
+    width: 150px; 
     height: auto;
     display: block;
     margin: 0 auto 10px;
